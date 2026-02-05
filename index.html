@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Minh Truongs portfolio som Front End Developer. Här kan du se mina projekt och kontakta mig för framtida samarbeten.">
+    <title>Alex Minh Truong's portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/headerprofil.webp" alt="Topp-bannern med texten Alex Minh Trongs portfolio och ett ansikte på ägaren av portfoliot.">
+      <nav class="navigator">
+        <ul>
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="#contactme">Kontakt</a></li>
+        </ul>
+        <div class="dropdown">
+          <button class="dropbtn">Mina projekt<i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#project1">Projekt 1</a>
+            <a href="#project2">Projekt 2</a>
+            <a href="#project3">Projekt 3</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <aside class="aboutme">
+        <h1>Om mig</h1>
+        <p>
+          Hej mitt namn är Alex. Jag är en <cite>positiv</cite> och <cite>ambitiös</cite> glädjefylld
+          kille som gillar att lösa problem. På fritiden gillar jag att
+          experimentera i köket med matlagning och bakning, annars gillar jag
+          att koppla av framför lite anime eller tv-spel.
+        </p>
+      </aside>
+    <main>
+      <section>
+        <h2>Mina projekt</h2>
+        <ul class="myProjects">
+          <li id="project1">
+            <p>Urban Pet Shelter</p>
+            <img src="assets/Urban_Pet_Shelter.webp" alt="Framsidan på en hemsida med texten Rädda liv och skydda vilda djur och bakgrunden finns en schimpans.">
+          </li>
+          <li id="project2">
+            <p>The Plant Oasis</p>
+            <img src="assets/The_Plant_Oasis.webp" alt="Framsidan på en hemsida med texten skapa en grön oas och på bakgrunden finns en grön monstera.">
+          </li>
+          <li id="project3">
+            <p>Baked Goods</p>
+            <img src="assets/Baked_Goods.webp" alt="Framsidan på en hemsida med texten söta och smakfulla bakverk och i bakgrunden finns en bild på baktillbehör och ingredienser för att baka en brödlimpa.">
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>
+          Jag är en studerande Front End Developer och är stationerad i
+          Västerås.
+        </h3>
+        <aside class ="sidecolumn">
+          <p>
+            Under utbildningen kommer att få möjligheten till LIA under
+            utbildningen. Låter tanken att få en glädjespridande framtida Front
+            End Developer intressant för din arbetsplats?
+          </p>
+          <p>Fyll i era kontaktuppgifter så kontaktar jag er!</p>
+          <div class="container">
+            <form action="action_page.php">
+              <label for="fname">Förnamn</label>
+              <input type="text" id="fname" name="firstname" placeholder="Ditt namn..">
+
+              <label for="lname">Efternamn</label>
+              <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn..">
+
+              <label for="cname">Företag</label>
+              <input type="text" id="cname" name="businessname" placeholder="Företag..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email..">
+
+              <label for="phone">Telefonnummer</label>
+              <input type="text" id="phone" name="phonenumber" placeholder="Telefonnummer..">
+
+              <label for="subject">Ämne</label>
+              <textarea id="subject" name="subject" placeholder="Skriv ditt meddelande här.." style="height: 200px"></textarea>
+
+              <label for="agree" >Jag samtycker till behandlingen av mina personuppgifter och godkänner villkoren i Företaget AB:s dataskyddspolicy.</label>
+              <input type="checkbox" id="agree" name="agree" value="agreetosend">
+              <input type="submit" value="Skicka">
+            </form>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <footer id="contactme">
+      <p>Kontaktinformation:</p>
+      <address>
+        <ul>
+          <li>
+            <a href="mailto:alextruong.1990@icloud.com">alextruong.1990@icloud.com</a></li>
+          <li><a href="tel:+46763943981">+46763943981</a></li>
+          <li><a href="https://alexminhtruong.se">alexminhtruong.se</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
