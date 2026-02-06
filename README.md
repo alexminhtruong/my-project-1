@@ -3,4 +3,4 @@
 
 ![W3C Validering](/assets/images/W3Cvalidering.webp "W3C Validering")
 
-![Google Chrome Lighthouse 100%](/assets/images/a11y.webp "Tillgänglighet 100%")
+![Google Chrome Lighthouse 100%](/assets/images/a11y.png "Tillgänglighet 100%")
